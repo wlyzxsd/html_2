@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+}
+
+table {
+    margin: 10px auto;
+    width: 80%;
+}
+td, th {
+    text-align: center;
+    border: solid thin lightgrey;
+    padding: 5px 0;
+}
+th {
+    background: lightgrey;
+}
+
+input[type="button"] {
+    display: block;
+    width: 120px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+form {
+    margin-left: 150px;
+}
+
+svg {
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+svg text {
+    font: 8px Verdana;
+}
+svg path, line {
+    fill: none;
+    stroke: #333333;
+    width: 1px;
+}
+
+.error {
+    color: red;
+}
